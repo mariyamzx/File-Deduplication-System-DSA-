@@ -19,14 +19,23 @@ The **File Deduplication System** is a C++ application that scans directories to
 /FileDeduplicationSystem
 │
 ├── main.cpp # Entry point
+
 ├── DeduplicationSystem.cpp # Main system control logic
+
 ├── DeduplicationSystem.h
+
 ├── FileManager.cpp # File scanning, hashing, and comparison logic
+
 ├── FileManager.h
+
 ├── HashMap.cpp # Hash map implementation (buckets using linked lists)
+
 ├── HashMap.h
+
 ├── List.cpp # Singly linked list for hash buckets
+
 ├── List.h
+
 └── README.md
 
 
